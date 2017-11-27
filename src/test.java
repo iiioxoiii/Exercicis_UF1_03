@@ -633,10 +633,11 @@ public class test {
 
                 int subproducte = 1;
                 for (int a = 0; a < arrayA.length; a++) {
-                    subproducte=subproducte*arrayA[x][a];
+                    subproducte=subproducte+arrayA[x][a];
                 }
+
                 for (int a = 0; a <arrayB.length ; a++) {
-                    subproducte = subproducte*arrayB[a][x];
+                    subproducte = subproducte+arrayB[a][x];
                 }
 
                 arrayC[x][y]=subproducte;
